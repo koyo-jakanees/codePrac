@@ -1,5 +1,5 @@
-# {Application Name}
-#### {Brief description of application}, {Date of current version}
+# Mock up Website 
+#### First week of MPFT , Last update 07/02/2013
 #### By **{List of contributors}**
 ## Description
 {This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
