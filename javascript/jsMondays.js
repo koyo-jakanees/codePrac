@@ -46,3 +46,18 @@ console.log(stringSearch.search("show"));
 var fruitList = "Papaya, Lemon, Avocado";
 console.log(fruitList.slice(8, 13));
 
+//practice string methods
+
+var newString = "out of no where it just turned out"
+console.log(newString.bold());
+
+var randVar1 = "John Doe never died";
+var randVar2 = "and so is Jane Doe still alive"
+
+var fullSentence = randVar1.concat(randVar2).toUpperCase();
+console.log(fullSentence);
+
+console.log(randVar1.toLowerCase());
+console.log(randVar2.toUpperCase());
+console.log(randVar1.charAt(3));
+console.log(randVar2.charAt(3));
