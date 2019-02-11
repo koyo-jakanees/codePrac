@@ -75,3 +75,29 @@ console.log(favNumber /= 78);
 console.log(favNumber < 5);
 console.log(favNumber === 68);
 console.log(favNumber == "46");
+console.log(10 >= 20);
+console.log("solo" <= "Han");
+console.log(475 != 475);
+
+//Data types anda conversion
+//boolean string number undefined
+
+typeof 5;
+typeof "5";
+typeof string;
+var greeting = "hello people";
+typeof greeting;
+
+//type coaersion
+// string to number
+parserInt("85");
+
+//returns NaN if the strign doesnt contain a number
+var name = "thanos"
+
+var bla = parseInt(name);
+
+//to string
+var numT = 458;
+numT.toString();
+
