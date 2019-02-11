@@ -74,4 +74,4 @@ console.log(favNumber /= 78);
 //comparison Operators
 console.log(favNumber < 5);
 console.log(favNumber === 68);
-console.log(favNumber == 46);
+console.log(favNumber == "46");
