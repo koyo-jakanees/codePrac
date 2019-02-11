@@ -61,3 +61,17 @@ console.log(randVar1.toLowerCase());
 console.log(randVar2.toUpperCase());
 console.log(randVar1.charAt(3));
 console.log(randVar2.charAt(3));
+
+//assignment operators
+var favDrink = "green Tea" ;
+console.log(favDrink);
+ var favNumber = 46;
+
+console.log(favNumber += 1);
+console.log(favNumber -= 9);
+console.log(favNumber /= 78);
+
+//comparison Operators
+console.log(favNumber < 5);
+console.log(favNumber === 68);
+console.log(favNumber == 46);
