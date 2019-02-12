@@ -26,7 +26,6 @@ console.log(statement.toLowerCase());
 //string concat
 
 console.log("Pine".concat("Avocado"));
-
 console.log("Example" + "Here");
 
 //chaining string methods
@@ -48,11 +47,11 @@ console.log(fruitList.slice(8, 13));
 
 //practice string methods
 
-var newString = "out of no where it just turned out"
+var newString = "out of no where it just turned out";
 console.log(newString.bold());
 
 var randVar1 = "John Doe never died";
-var randVar2 = "and so is Jane Doe still alive"
+var randVar2 = "and so is Jane Doe still alive";
 
 var fullSentence = randVar1.concat(randVar2).toUpperCase();
 console.log(fullSentence);
@@ -65,7 +64,7 @@ console.log(randVar2.charAt(3));
 //assignment operators
 var favDrink = "green Tea" ;
 console.log(favDrink);
- var favNumber = 46;
+var favNumber = 46;
 
 console.log(favNumber += 1);
 console.log(favNumber -= 9);
@@ -79,25 +78,42 @@ console.log(10 >= 20);
 console.log("solo" <= "Han");
 console.log(475 != 475);
 
-//Data types anda conversion
+//Data types and conversion
 //boolean string number undefined
+var newNum = 5;
+var numString = "5";
 
-typeof 5;
-typeof "5";
-typeof string;
+typeof newNum;
+typeof numString;
+newNum == numString;
+
 var greeting = "hello people";
 typeof greeting;
 
 //type coaersion
 // string to number
-parserInt("85");
+parseInt("85");
 
 //returns NaN if the strign doesnt contain a number
-var name = "thanos"
+var name = "thanos";
 
 var bla = parseInt(name);
 
 //to string
 var numT = 458;
-numT.toString();
+typeof numT;
+
+var strNum = numT.toString();
+typeof strNum;
+
+var newNumT = parseInt(strNum);
+typeof newNumT;
+
+numT === newNumT;
+
+numT !== strNum;
+
+// Javascript Function
+// diff from methods in that they are called by themselves and methods are called on something.
+alert("hey there . How are you?");
 
