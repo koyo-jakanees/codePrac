@@ -14,3 +14,7 @@ var saySomething = function(whatToSay) {
   var outputText = "The sum is " + result + ".";
   
   saySomething(outputText);
+
+// Function literal and expression prac
+
+
