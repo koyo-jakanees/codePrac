@@ -11,6 +11,6 @@ var saySomething = function(whatToSay) {
   alert(add(3, 5));   
   */
   var result = add(91, 78);
-  var outputText = "The sum is " + result + ".":
+  var outputText = "The sum is " + result + ".";
   
   saySomething(outputText);
