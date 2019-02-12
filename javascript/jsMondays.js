@@ -113,7 +113,7 @@ numT === newNumT;
 
 numT !== strNum;
 
-// Javascript Function
+// Javascript Function: (window oject function)
 // diff from methods in that they are called by themselves and methods are called on something.
 // functions that let us interact with the browser
 alert("hey there . How are you?");
@@ -127,7 +127,18 @@ prompt("what is up?").toUpperCase();
 
 // confirm function, takes a string arg too
 confirm("Would you like to contiue?");
-/*alert(): str arg: returns undefined
+/*
+  alert(): str arg: returns undefined
   prompt(): str arg: returns str 
-  confirm(); str arg: returns bool */
+  confirm(); str arg: returns bool 
+*/
+alert("Sorry Unexpected Error!!");
+confirm("did you eat the pie?");
+prompt("how was the meet up?");
+var userAge = prompt("what is your age?");
+
+var userAgeInt = parseInt(userAge);
+
+//or alternatively use parseInt or parseFloat to coerse
+var userAge1 = parseInt(prompt("what is your age?"));
 
