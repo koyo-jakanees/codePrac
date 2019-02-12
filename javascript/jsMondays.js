@@ -115,5 +115,19 @@ numT !== strNum;
 
 // Javascript Function
 // diff from methods in that they are called by themselves and methods are called on something.
+// functions that let us interact with the browser
 alert("hey there . How are you?");
+
+//prompting user input: opens a dialogue box for user input
+prompt("What is your name?");
+var  myLunch = prompt("where do you prefer to have your lunch?");
+
+// can be chained with other data types' methods e.g
+prompt("what is up?").toUpperCase();
+
+// confirm function, takes a string arg too
+confirm("Would you like to contiue?");
+/*alert(): str arg: returns undefined
+  prompt(): str arg: returns str 
+  confirm(); str arg: returns bool */
 
