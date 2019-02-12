@@ -78,7 +78,20 @@ var remainder = function(numOne, numTwo){
 */
 function inquire(age, name, favFood){
   age = prompt("What is your age?");
-  name = prompt("What is ypur name?");
+  name = prompt("What is your name?");
   favFood = prompt("What is your favourite food?");
-  return alert(age + name + favFood);
+  return alert("Age: " +age +"\n"+ "Name: " + name + "\n"+"Favourite food: "+ favFood);
 }
+
+//Calculator Busines Logic
+var subtract = function(number1, number2) {
+  return number1 - number2;
+};
+alert(subtract(10,5));
+var add = function(number1, number2) {
+  return number1 + number2;
+};
+
+var number1 = prompt("Enter a number:");
+var number2 = prompt("Enter another number:");
+alert(add(number1, number2));
